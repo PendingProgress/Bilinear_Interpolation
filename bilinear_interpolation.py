@@ -4,8 +4,6 @@
 # Explanation:
 """Bilinear Interpolation takes into account 4 points, with known "height" value, to approximate a 5th point's "height" value. The 5th point must be contained within the bounds formed by the 4 known points. Bilinear interpolation is done by performing linear interpolation in the x direction for the two point pairs, and then performing linear interpolation in the y direction for the values found from the first interpolation. The order of interpolation does not matter. i.e you can interpolate the y direction first, and then the x, or vice versa.""" 
 
-import math
-
 # Bilinear Interpolation
 def bilinear_interpolation(x1,x,x2,y1,y,y2,Q11,Q21,Q12,Q22):
   a = 1/(x2-x1)/(y2-y1)
