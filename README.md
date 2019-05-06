@@ -7,5 +7,5 @@ x direction for the two point pairs, and then performing linear interpolation in
 interpolation. Although, the order of interpolation does not matter. i.e you can interpolate the y direction first, and then the x, or vice versa. Examples of this is shown in the code
 
 Example Implementation: 
-Bilinear interpolation can be used in auto bed leveling of a 3D printer by determining the z offsets of known points on the bed with a proximity sensor. We can then use these known points to determine the necessary z offsets in the gcode for the first print layer.
+Bilinear interpolation can be used in auto bed leveling of a 3D printer by determining the z offsets of known points on the bed with a proximity sensor. We can then use these known points to determine the necessary z offsets in the gcode for the first print layer using bilinear interpolation.
 
